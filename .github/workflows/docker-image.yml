@@ -2,7 +2,7 @@ name: Creating docker image and deploying it docker hub
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main]
 
 jobs:
 
