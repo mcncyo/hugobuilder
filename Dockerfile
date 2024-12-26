@@ -18,3 +18,6 @@ RUN mkdir -p /etc/apt/keyrings \
     && rm -rf /var/lib/apt/lists/*
 
 RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+#force upgrade
+
+ 
